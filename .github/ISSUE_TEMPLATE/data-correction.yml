@@ -1,0 +1,15 @@
+name: 数据新增或纠错
+description: 提交可公开核验的学校或政策信息
+body:
+  - type: dropdown
+    attributes:
+      label: 信息类型
+      options: [学校信息, 入学政策, 数据纠错]
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 内容与官方来源
+      description: 请提供修改内容以及政府或学校官网链接。
+    validations:
+      required: true
