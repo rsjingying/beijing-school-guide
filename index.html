@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="北京上学信息库：学校地图、政策索引与学校档案。" />
+    <title>北京上学信息库</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <p class="eyebrow">OPEN DATA · BEIJING EDUCATION</p>
+        <h1>北京上学信息库</h1>
+        <p class="lead">用清晰、可核验的信息，帮助家庭了解北京入学。</p>
+      </div>
+    </header>
+    <main class="wrap">
+      <section class="notice">数据为公开信息索引，入学安排请以主管部门和学校当年正式通知为准。</section>
+      <section class="filters" aria-label="筛选学校">
+        <label>城区 <select id="district"><option value="">全部城区</option></select></label>
+        <label>学段 <select id="stage"><option value="">全部学段</option></select></label>
+        <label>性质 <select id="type"><option value="">全部性质</option></select></label>
+      </section>
+      <section class="grid">
+        <div>
+          <div class="section-title"><h2>学校地图</h2><span id="school-count"></span></div>
+          <div id="map" role="img" aria-label="北京学校点位示意图"></div>
+          <div id="schools" class="cards"></div>
+        </div>
+        <aside>
+          <h2>政策索引</h2>
+          <div id="policies" class="policy-list"></div>
+          <a class="contribute" href="https://github.com/" target="_blank" rel="noreferrer">在 GitHub 补充或纠错 →</a>
+        </aside>
+      </section>
+    </main>
+    <footer>北京上学信息库 · 社区共建 · 仅收录可公开核验的信息</footer>
+    <script src="app.js"></script>
+  </body>
+</html>
