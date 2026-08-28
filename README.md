@@ -14,6 +14,12 @@
 - [东城区 8 个学区所属学校](docs/dongcheng-schools.md)
 - [地图导入数据](data/dongcheng-school-data.js)
 
+## 西城区资料
+
+- [西城区 11 个学区边界与坐标](references/xicheng-districts.md)
+- [西城区学区机器可读坐标](data/xicheng-district-paths.js)
+- [西城区学校资料](docs/xicheng-schools.md)
+
 > 数据仅作信息索引，不构成入学承诺。请以教育主管部门、学校当年发布的正式通知为准。
 
 ## 本地预览
